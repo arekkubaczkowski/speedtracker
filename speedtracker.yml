@@ -29,7 +29,7 @@
 #                                                                             #
 #  > encryptionKey                                            (!) Encrypted   #
 #                                                                             #
-#  Open the encrypt tool (https://speedtracker.org/encrypt) and insert your   #
+#  Open the encrypt tool () and insert your   #
 #  key on the first input field. Leave the "What do you want to encrypt?"     #
 #  field blank and use the result on the encryptionKey field.                 #
 #                                                                             #
@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "a70d3c749f312d7a0e9285b8"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "9f54296999353b3409c583bdc94933a5a471600ee36eebaaf71e044f10fff3db8be7"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
