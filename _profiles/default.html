@@ -46,13 +46,17 @@ parameters:
 #
 # https://github.com/speedtracker/speedtracker-api/blob/master/lib/SpeedTracker.js#L18-L37
 #
-#budgets:
-#  -
-#    metric: TTFB
-#    max: 600
-#    alerts: ["emailAlert", "slackAlert"]
-#  -
-#    metric: firstPaint
-#    max: 2000
-#    alerts: ["slackAlert"]
+budgets:
+  -
+    metric: TTFB
+    max: 400
+    alerts: ["emailAlert"]
+  -
+    metric: firstPaint
+    max: 2000
+    alerts: ["emailAlert"]
+alerts:
+  emailAlert:
+    type: 'email'
+    recipients: ['69fcb1ea2595444cbb8a20d794f26fc7829755dc9a03527d5c7a01c13a33cfd7']
 ---
